@@ -69,6 +69,7 @@ class App:
 		
 	def limpar(self):
 		self.valor1.delete('0 ', END)
+		self.msg['text']= ' ' #this will clean the result on the window
 		
 	def sair(self):
 		app.destroy()
