@@ -69,7 +69,6 @@ class App:
 		
 	def limpar(self):
 		self.valor1.delete('0 ', END)
-		self.msg.delete('0 ', END)
 		
 	def sair(self):
 		app.destroy()
